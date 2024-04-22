@@ -1,0 +1,6 @@
+Lamport's algorithm is a technique in computer science used for assigning
+timestamps in distributed systems to ensure the ordering and causality of events. This
+method involves each process incrementing its own timestamp when an event occurs and
+updating it according to messages received from other processes. By utilizing Lamport
+timestamps, a distributed system can establish a partial order of events, facilitating the
+analysis of causality and coordination between processes.

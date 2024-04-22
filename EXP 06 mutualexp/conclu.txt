@@ -1,0 +1,8 @@
+In distributed systems, the Ricart-Agrawala method performs well in ensuring
+mutual exclusion. It accomplishes this by allowing nodes to gain exclusive access to crucial
+portions without the need for a central coordinator by using a token-passing system inside a
+logical ring. This method does away with the need for handshake messages, which effectively
+lessens the risk of starvation and lowers overhead. However, issues such as token loss and ring
+reconstruction after process crashes still exist. However, through efficient token management
+and logical coordination, the method guarantees mutual exclusion, which permits distributed
+processes to access resources in unison.

@@ -1,0 +1,7 @@
+In conclusion, socket programming was used by the client to access the server's
+services. Sockets are network connections that allow messages to be sent back and forth between
+the client and server. The communication starts when the client sends a service request to the
+server, which responds to the request after processing it. Through this communication, the client
+can use different features or resources provided by the server, such getting data or carrying out
+particular operations. The client can communicate with the server and make use of its services by
+connecting via sockets.

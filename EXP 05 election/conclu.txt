@@ -1,0 +1,7 @@
+When put into practice, the Ring Algorithm provides a useful example of how a
+distributed system chooses a new coordinator in case the existing one fails. Each process
+establishes an active list by communicating with its surrounding processes through an election
+procedure. The algorithm selects the process with the highest ID as the new coordinator by
+repeatedly sending messages and comparing process IDs. This technique highlights the
+robustness and reliability of the distributed election algorithm by ensuring that cooperation
+within the system continues without interruption even in the event of a failure.

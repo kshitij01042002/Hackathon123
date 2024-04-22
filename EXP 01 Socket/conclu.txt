@@ -1,0 +1,9 @@
+Socket programming enables processes to exchange data either over a
+network or within the same machine, offering a versatile solution for inter-process
+communication (IPC). Unlike alternative IPC methods such as shared memory or
+message queues, sockets provide flexibility and compatibility across different systems
+and programming languages. In socket programming, processes communicate by sending
+and receiving messages through network endpoints called sockets. These messages carry
+data payloads, such as text or binary information, along with pertinent details like source
+and destination addresses. Sockets accommodate both connection-oriented and
+connectionless communication models, offering flexibility in designing IPC solutions.
